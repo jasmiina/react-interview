@@ -1,0 +1,32 @@
+.input-container {
+  background-color: white;
+}
+
+.input-field {
+  font: inherit;
+  font-weight: 500;
+  border: 2px solid rgb(192, 220, 230);
+  border-radius: 20px;
+  color: rgb(48, 70, 80);
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+}
+.input-field:focus {
+  outline: none;
+}
+
+.submit-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  margin-right: 1.5rem;
+  color: rgb(99, 150, 168);
+  font-size: 2.5rem;
+}
+.submit-btn:hover {
+  color: rgb(164, 193, 209);
+}
+.submit-btn:active {
+  color: rgb(104, 145, 167);
+}

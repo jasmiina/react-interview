@@ -1,0 +1,35 @@
+.item-container {
+  background-color: lightblue;
+  box-shadow: 5px 5px 10px rgb(142, 171, 192);
+}
+
+.h3.incomplete {
+  color: rgb(48, 70, 80);
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  max-width: 20rem;
+}
+.h3.complete {
+  color: rgb(48, 70, 80);
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  max-width: 20rem;
+  text-decoration: line-through;
+}
+
+.icon-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  margin-right: 0.5rem;
+  color: rgb(48, 70, 80);
+  font-size: 1.7rem;
+}
+.icon-btn:hover {
+  color: rgb(97, 128, 143);
+}
+.icon-btn:active {
+  color: rgb(39, 48, 53);
+}
